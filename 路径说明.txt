@@ -1,0 +1,5 @@
+https://cdn.jsdelivr.net/gh/ccppcc/static/文件路径
+
+
+如下：
+https://cdn.jsdelivr.net/gh/ccppcc/static/huoyuan/style/css.css
