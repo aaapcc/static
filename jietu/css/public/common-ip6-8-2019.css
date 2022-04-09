@@ -1,7 +1,7 @@
-@font-face{	font-family: pingfangcuti; src: url('/fonts/pingfangheavy.ttf'); }
-@font-face{	font-family: pingfangzhongdeng; src: url('/fonts/pingfangmedium.ttf'); }
-@font-face{	font-family: pingfangxiti; src: url('/fonts/pingfanglight.ttf'); }
-@font-face{	font-family: itoptime; src: url('/fonts/SFUIText.ttf'); }
+@font-face{	font-family: pingfangcuti; src: url('https://cdn.jsdelivr.net/gh/3606655/static/jietu/fonts/pingfangheavy.ttf'); }
+@font-face{	font-family: pingfangzhongdeng; src: url('https://cdn.jsdelivr.net/gh/3606655/static/jietu/fonts/pingfangmedium.ttf'); }
+@font-face{	font-family: pingfangxiti; src: url('https://cdn.jsdelivr.net/gh/3606655/static/jietu/fonts/pingfanglight.ttf'); }
+@font-face{	font-family: itoptime; src: url('https://cdn.jsdelivr.net/gh/3606655/static/jietu/fonts/SFUIText.ttf'); }
 
 a{color: #666;}
 a:focus,a:hover{color: #333;}
