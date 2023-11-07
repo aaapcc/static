@@ -1,0 +1,1 @@
+document.writeln('<div style="margin:0px;"><a href="http://www.zhaolishi.com" target="_blank"><img src="http://www.jianglishi.cn/uploadfile/banner/ad_right_336.gif" /></a></div>');

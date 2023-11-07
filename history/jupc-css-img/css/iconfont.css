@@ -1,0 +1,29 @@
+
+@font-face {font-family: "iconfont";
+  src: url('http://static.zhaolishi.com/jupc-css-img/css/iconfont.eot?t=1491010828160'); /* IE9*/
+  src: url('http://static.zhaolishi.com/jupc-css-img/css/iconfont.eot?t=1491010828160#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('http://static.zhaolishi.com/jupc-css-img/css/iconfont.woff?t=1491010828160') format('woff'), /* chrome, firefox */
+  url('http://static.zhaolishi.com/jupc-css-img/css/iconfont.ttf?t=1491010828160') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('http://static.zhaolishi.com/jupc-css-img/css/iconfont.svg?t=1491010828160#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-qiehuanqiyou:before { content: "\e600"; }
+
+.icon-qiehuanqizuo:before { content: "\e602"; }
+
+.icon-zhuye:before { content: "\e648"; }
+
+.icon-piaofang:before { content: "\e601"; }
+
+.icon-shangyiyehoutuifanhui:before { content: "\e8ef"; }
+
+.icon-xiayiyeqianjinchakangengduo:before { content: "\e8f1"; }
+
