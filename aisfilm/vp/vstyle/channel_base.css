@@ -1,0 +1,413 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*header*/
+
+
+/* css注释：设置了浏览器宽度不小于1920x时，模块显示1700px宽度 */ 
+@media screen and ( min-width: 1790px ) { 
+	/*.kuanduceliang:after{ content: "width:1710px";}*/
+
+	.mian_wrap{ margin: 0px auto; width: 1710px; }
+
+	.nav_channel{ margin-left: 10px; }
+	.nav_sub_box a{ padding: 0px 10px; }
+	/*.nav_channel_box .nav_sub_box:nth-child(6){ display: none; }*/
+	.nav_channel .site_head_nav_inner{ width: 1000px; left: 250px; }
+	.nav_channel .site_head_nav_inner:before{ left: 403px; }
+	
+	.header_inner { width: 1710px; }  
+	.header_search_wrap{ margin-left: -113px; }
+	.search_box_in{ width: 384px; }
+
+	.home_main_nav{ top: 570px; }
+	.home_main_nav_inner{ width: 1710px; }
+
+	.common_container{ margin: 10px auto 0px; width: 1710px; }
+	.home_hot_film{ margin-top: 20px; }
+
+	.common_content_hm{ max-height: 730px; }
+	.common_content .list_wrap .list_item{ width: 204px; margin: 0 11px 30px 0; height: 336px; }
+	.home_hot_film .common_content .list_wrap{ height: 366px; }
+	.danh_common_content .common_content .list_wrap{ height: 366px; }
+	.common_content .list_wrap .list_item .figure_pic{ height: 280px; }
+	.common_content .list_wrap .list_item_focus{ width: 419px; margin: 0 11px 30px 0; }
+	.common_content .list_wrap .list_item_focus_box{ height: 336px; }
+	.common_content .list_wrap .list_item_focus_box .figure_detail{ padding: 24px 20px 0px; }
+
+	.common_content_star{ height: 306px; }
+	.common_content_star .list_wrap .list_item{ width: 162px; margin: 0 10px 30px 0; height: 276px; }
+	.common_content_star .list_wrap .list_item .figure_pic{ height: 220px; }
+
+	.hm_news_content ul li dl dt{ width: 130px; height: 90px; margin-right: 15px; }
+	.hm_news_content ul li dl dd{ width: calc(100% - 145px); }
+	.hm_news_content ul li dl dd strong{ line-height: 22px; height: 66px; overflow: hidden; display: block; }
+
+
+	.footer_wrap , .footer_search{ width: 1710px; }
+
+
+	.search_main{ margin: 0px auto; width: 1300px; }
+
+	.list_main_nav{ top: 570px; height: 130px; }
+	.list_main_nav_inner{ width: 1710px; }
+	.list_main_nav_inner .nav_item_1{ width: 645px; }
+	.list_main_nav_inner .nav_item_2{ width: 445px; }
+	.list_main_nav_inner .nav_item_3{ width: 520px; }
+	.list_main_nav .nav_item_title{ top: -24px; }
+
+	.list_page_wrap{ margin-top: 50px; }
+
+	.gbook_wrap{ margin: 30px auto 0px; width: 1300px; }
+
+	.spec_common_content .list_wrap .list_item{ height: 246px; }
+	.spec_common_content .list_wrap .list_item .figure_pic{ height: 190px;  }
+
+	.film_detail_wrap{ width: 1710px; left: 50%; margin-left: -855px; }
+	.film_detail_wrap .detail-info dl.jianjie{ width: calc(100% - 340px); }
+	.detail_mian_left{ width: calc(100% - 420px); }
+	.detail_mian_right{ width: 380px; }
+
+	.spec_detail_wrap{ width: 1710px; left: 50%; margin-left: -855px; }
+	/*.spec_detail_wrap .detail-info .spec_jieshao{ width: calc(100% - 340px); }*/
+	.detail_spec_item ul li a img{ height: 190px; }
+
+	.detail_left_playlist_container .sort-list a{ min-width: 113px; }
+
+	.detail_left_glsp .common_content .list_wrap{ max-height: 730px; }
+	.detail_left_glsp .common_content .list_wrap .list_item{ width: 206px; margin: 0 11px 30px 0; height: 336px; }
+	.detail_left_glsp .common_content .list_wrap .list_item .figure_pic{ height: 280px; }
+	.detail_left_glsp .common_content .list_wrap .list_item_focus{ width: 423px; margin: 0 15px 30px 0; }
+
+
+	.play_detail_left{ width: 1290px; }
+	.embed-responsive{ padding-bottom: 766px; }
+	.embed-responsive-infor{ height: 726px; margin-top: 40px; }
+	.play_detail_right{ width: 420px; }
+
+	/*.detail_left_playlist{ display: block; margin-bottom: 30px; }*/
+	.player_content_vodlist li a{ min-width: 86px; margin: 0px 5px 10px 5px; }
+	.playlist_right_jian_content .common_content .list_wrap .list_item{ width: 175px; margin: 0 20px 15px 0; height: 292px; }
+	.playlist_right_jian_content .common_content .list_wrap .list_item .figure_pic{ height: 234px; }
+
+
+	.news_mian_warp{ width: 1400px; }
+	.news_left_menu{ width: 100px; }
+	.news_middle_warp{ width: 880px; }
+	.news_right_warp{ width: 340px; }
+} 
+
+/* 设置了浏览器宽度不大于1789px时，模块显示1500px宽度 */
+@media screen and ( max-width: 1789px ) { 
+	/*.kuanduceliang:after{ content: "width:1500px";}*/
+
+	.mian_wrap{ margin: 0px auto; width: 1500px; }
+
+	.nav_channel{ margin-left: 6px; }
+	.nav_sub_box a{ padding: 0px 10px; }
+	/*.nav_channel_box .nav_sub_box:nth-child(5){ display: none; }
+	.nav_channel_box .nav_sub_box:nth-child(6){ display: none; }*/
+	.nav_channel .site_head_nav_inner{ width: 1000px; left: 150px; }
+	.nav_channel .site_head_nav_inner:before{ left: 500px; }
+
+	.header_inner { width: 1500px; }  
+	.header_search_wrap{ margin-left: -22px; }
+	.search_box_in{ width: 324px; }
+
+
+	.home_main_nav{ top: 500px; }
+	.home_main_nav_inner{ width: 1500px; }
+	.nav_item .main_nav_block.main_nav_block_7 a:nth-child(9){ display: none; }
+	.nav_item .main_nav_block.main_nav_block_7 a:nth-child(10){ display: none; }
+	.nav_item .main_nav_block.main_nav_block_7 a:nth-child(11){ display: none; }
+
+	.nav_item .main_nav_block.main_nav_block_8 a:nth-child(6){ display: none; }
+	.nav_item .main_nav_block.main_nav_block_8 a:nth-child(10){ display: none; }
+	.nav_item .main_nav_block.main_nav_block_8 a:nth-child(12){ display: none; }
+	.nav_item .main_nav_block.main_nav_block_8 a:nth-child(13){ display: none; }
+
+	.common_container{ margin: 10px auto 0px; width: 1500px; }
+	.home_hot_film{ margin-top: 30px; }
+
+	.common_content_hm{ max-height: 650px; }
+	.common_content .list_wrap{ width: calc(100% + 100px); } 
+	.common_content .list_wrap .list_item{ width: 177px; margin: 0 12px 30px 0; height: 296px; }
+	.home_hot_film .common_content .list_wrap{ height: 326px; }
+	.danh_common_content .common_content .list_wrap{ height: 326px; }
+	.common_content .list_wrap .list_item .figure_pic{ height: 250px; }
+	.common_content .list_wrap .list_item_focus{ width: 366px; margin: 0 12px 30px 0; }
+	.common_content .list_wrap .list_item_focus_box{ height: 296px; }
+	.common_content .list_wrap .list_item_focus_box .figure_detail{ padding: 24px 20px 0px; }
+
+	.common_content_star{ height: 276px; }
+	.common_content_star .list_wrap .list_item{ width: 141px; margin: 0 10px 30px 0; height: 246px; }
+	.common_content_star .list_wrap .list_item .figure_pic{ height: 190px; }
+
+	.hm_news_content ul li dl dt{ width: 130px; height: 90px; margin-right: 15px; }
+	.hm_news_content ul li dl dd{ width: calc(100% - 145px); }
+	.hm_news_content ul li dl dd strong{ line-height: 22px; height: 66px; overflow: hidden; display: block; }
+
+	.footer_wrap , .footer_search{ width: 1500px; }
+
+	.search_main{ margin: 0px auto; width: 1300px; }
+
+	.list_main_nav{ top: 500px; height: 130px; }
+	.list_main_nav_inner{ width: 1500px; }
+	.list_main_nav_inner .nav_item_1{ width: 545px; }
+	.list_main_nav_inner .nav_item_2{ width: 385px; }
+	.list_main_nav_inner .nav_item_3{ width: 500px; }
+	.list_main_nav .nav_item_title{ top: -24px; }
+
+	.list_page_wrap{ margin-top: 70px; }
+
+	.gbook_wrap{ margin: 30px auto 0px; width: 1300px; }
+
+	.spec_common_content .list_wrap .list_item{ height: 226px; }
+	.spec_common_content .list_wrap .list_item .figure_pic{ height: 170px; }
+
+	.film_detail_wrap{ width: 1500px; left: 50%; margin-left: -750px; }
+	.film_detail_wrap .detail-info dl.jianjie{ width: calc(100% - 280px); }
+	.detail_mian_left{ width: calc(100% - 390px); }
+	.detail_mian_right{ width: 350px; }
+
+	.spec_detail_wrap{ width: 1500px; left: 50%; margin-left: -750px; }
+	/*.spec_detail_wrap .detail-info .spec_jieshao{ width: calc(100% - 280px); }*/
+	.detail_spec_item ul li a img{ height: 175px; }
+
+	.detail_left_playlist_container .sort-list a{ min-width: 110px; }
+
+	.detail_left_glsp .common_content .list_wrap{ max-height: 658px; }
+	.detail_left_glsp .common_content .list_wrap .list_item{ width: 176px; margin: 0 11px 30px 0; height: 300px; }
+	.detail_left_glsp .common_content .list_wrap .list_item .figure_pic{ height: 240px; }
+	.detail_left_glsp .common_content .list_wrap .list_item_focus{ width: 423px; margin: 0 15px 30px 0; }
+
+
+	.play_detail_left{ width: 1110px; }
+	.embed-responsive{ padding-bottom: 665px; }
+	.embed-responsive-infor{ height: 625px; margin-top: 40px; }
+	.play_detail_right{ width: 390px; }
+
+	/*.detail_left_playlist{ display: none; margin-bottom: 30px; }*/
+	.player_content_vodlist li a{ min-width: 76px; margin: 0px 5px 10px 5px; }
+	.playlist_right_jian_content .common_content .list_wrap .list_item{ width: 161px; margin: 0 20px 15px 0; height: 270px; }
+	.playlist_right_jian_content .common_content .list_wrap .list_item .figure_pic{ height: 212px; }
+
+
+	.news_mian_warp{ width: 1300px; }
+	.news_left_menu{ width: 100px; }
+	.news_middle_warp{ width: 780px; }
+	.news_right_warp{ width: 340px; }
+}  
+
+/* 设置了浏览器宽度不大于1549px时，模块显示1300px宽度 */
+@media screen and ( max-width: 1549px ) { 
+	/*.kuanduceliang:after{ content: "width:1300px";}*/
+
+	.mian_wrap{ margin: 0px auto; width: 1300px; }
+
+	.nav_channel{ margin-left: 6px; }
+	.nav_sub_box a{ padding: 0px 9px; }
+
+	/*.nav_channel_box .nav_sub_box:nth-child(5){ display: none; }*/
+	.nav_channel_box .nav_sub_box:nth-child(6){ display: none; }
+	/*.nav_channel_box .nav_sub_box:nth-child(7){ display: none; }
+	.nav_channel_box .nav_sub_box:nth-child(8){ display: block; }*/
+	.nav_channel .site_head_nav_inner{ width: 1000px; left: 90px; }
+	.nav_channel .site_head_nav_inner:before{ left: 492px; }
+
+	.header_inner { width: 1300px; }  
+	.header_search_wrap{ margin-left: 14px; }
+	.search_box_in{ width: 230px; }
+
+	.home_main_nav{ top: 460px; }
+	.home_main_nav_inner{ width: 1300px; }
+
+	.nav_item .main_nav_block.main_nav_block_7 a:nth-child(2){ display: none; }
+	.nav_item .main_nav_block.main_nav_block_7 a:nth-child(5){ display: none; }
+	.nav_item .main_nav_block.main_nav_block_7 a:nth-child(6){ display: none; }
+	.nav_item .main_nav_block.main_nav_block_7 a:nth-child(7){ display: none; }
+
+	.nav_item .main_nav_block.main_nav_block_8 a:nth-child(2){ display: none; }
+	.nav_item .main_nav_block.main_nav_block_8 a:nth-child(4){ display: none; }
+	.nav_item .main_nav_block.main_nav_block_8 a:nth-child(8){ display: none; }
+	.nav_item .main_nav_block.main_nav_block_8 a:nth-child(9){ display: none; }
+
+	.common_container{ margin: 10px auto 0px; width: 1300px; }
+	.home_hot_film{ margin-top: 50px; }
+
+	.common_content_hm{ max-height: 730px; }
+	.common_content .list_wrap{ width: calc(100% + 100px); } 
+	.common_content .list_wrap .list_item{ width: 204px; margin: 0 15px 30px 0; height: 336px; }
+	.home_hot_film .common_content .list_wrap{ height: 362px; }
+	.danh_common_content .common_content .list_wrap{ height: 362px; }
+	.common_content .list_wrap .list_item .figure_pic{ height: 280px; }
+	.common_content .list_wrap .list_item_focus{ width: 423px; margin: 0 15px 30px 0; }
+	.common_content .list_wrap .list_item_focus_box{ height: 336px; }
+	.common_content .list_wrap .list_item_focus_box .figure_detail{ padding: 24px 20px 0px; }
+
+	.common_content_star{ height: 296px; }
+	.common_content_star .list_wrap .list_item{ width: 153px; margin: 0 11px 30px 0; height: 266px; }
+	.common_content_star .list_wrap .list_item .figure_pic{ height: 210px; }
+
+	.footer_wrap , .footer_search{ width: 1300px; }
+
+	.search_main{ margin: 0px auto; width: 1300px; }
+
+	.list_main_nav{ top: 460px; height: 168px; }
+	.list_main_nav_inner{ width: 1300px; }
+	.list_main_nav_inner .nav_item_1{ width: 435px; }
+	.list_main_nav_inner .nav_item_2{ width: 345px; }
+	.list_main_nav_inner .nav_item_3{ width: 450px; }
+	.list_main_nav .nav_item_title{ top: -20px; }
+
+	.list_page_wrap{ margin-top: 130px; }
+
+	.gbook_wrap{ margin: 30px auto 0px; width: 1300px; }
+
+	.spec_common_content .list_wrap .list_item{ height: 206px; }
+	.spec_common_content .list_wrap .list_item .figure_pic{ height: 150px; }
+
+	.film_detail_wrap{ width: 1300px; left: 50%; margin-left: -650px; }
+
+	.film_detail_wrap .detail-info dl.jianjie{ width: calc(100% - 0px); }
+	.detail_mian_left{ width: calc(100% - 360px); }
+	.detail_mian_right{ width: 320px; }
+
+	.spec_detail_wrap{ width: 1300px; left: 50%; margin-left: -650px; }
+	/*.spec_detail_wrap .detail-info .spec_jieshao{ width: calc(100% - 210px); }*/
+	.detail_spec_item ul li a img{ height: 160px; }
+
+	.detail_left_playlist_container .sort-list a{ min-width: 107px; }
+
+	.detail_left_glsp .common_content .list_wrap{ max-height: 658px; }
+	.detail_left_glsp .common_content .list_wrap .list_item{ width: 179px; margin: 0 11px 30px 0; height: 300px; }
+	.detail_left_glsp .common_content .list_wrap .list_item .figure_pic{ height: 246px; }
+	.detail_left_glsp .common_content .list_wrap .list_item_focus{ width: 423px; margin: 0 15px 30px 0; }
+
+	.play_detail_left{ width: 940px; }
+	.embed-responsive{ padding-bottom: 570px; }
+	.embed-responsive-infor{ height: 530px; margin-top: 40px; }
+	.play_detail_right{ width: 360px; }
+
+	/*.detail_left_playlist{ display: none; margin-bottom: 30px; }*/
+	.player_content_vodlist li a{ min-width: 66px; margin: 0px 5px 10px 5px; }
+	.playlist_right_jian_content .common_content .list_wrap .list_item{ width: 147px; margin: 0 20px 15px 0; height: 254px; }
+	.playlist_right_jian_content .common_content .list_wrap .list_item .figure_pic{ height: 194px; }
+
+	.news_mian_warp{ width: 1300px; }
+	.news_left_menu{ width: 100px; }
+	.news_middle_warp{ width: 780px; }
+	.news_right_warp{ width: 340px; }
+
+}  
+
+/* 设置了浏览器宽度不大于1280px时，模块显示1000px宽度 */ 
+@media screen and ( max-width: 1280px ) { 
+	/*.kuanduceliang:after{ content: "width:1000px";}*/
+
+	.mian_wrap{ margin: 0px auto; width: 1000px; }
+
+	.nav_channel{ margin-left: 0px; }
+	.nav_sub_box a{ padding: 0px 12px; }
+
+	/*.nav_channel_box .nav_sub_box:nth-child(2){ display: none; }
+	.nav_channel_box .nav_sub_box:nth-child(3){ display: none; }*/
+	.nav_channel_box .nav_sub_box:nth-child(4){ display: none; }
+	.nav_channel_box .nav_sub_box:nth-child(5){ display: none; }
+	.nav_channel_box .nav_sub_box:nth-child(6){ display: none; }
+	.nav_channel_box .nav_sub_box:nth-child(7){ display: none; }
+	.nav_channel_box .nav_sub_box:nth-child(8){ display: block; }
+	.nav_channel .site_head_nav_inner{ width: 980px; left: 0px; }
+	.nav_channel .site_head_nav_inner:before{ left: 454px; }
+	.site_head_nav_inner .nav_item_1{ padding: 0px 25px 0px 5px; }
+	.site_head_nav_inner .nav_item_2{ padding: 0px 25px 0px 10px; }
+	.site_head_nav_inner .nav_item_3{ padding: 0px 25px 0px 10px; }
+	.site_head_nav_inner .nav_item_4{ padding: 0px 0px 0px 10px; }
+
+	.header_inner { width: 1000px; }
+	.header_search_wrap{ margin-left: 25px; } 
+	.search_box_in{ width: 200px; } 
+
+	.home_main_nav{ top: 380px; }
+	.home_main_nav_inner{ width: 1000px; }
+
+	.home_main_nav_inner .nav_item_4{ padding: 0px 0px 0px 10px; background: none; }
+	.nav_item.nav_item_5{ display: none; }
+
+	.nav_item .main_nav_block.main_nav_block_7 a:nth-child(3){ display: none; }
+	.nav_item .main_nav_block.main_nav_block_7 a:nth-child(8){ display: none; }
+
+	.nav_item .main_nav_block.main_nav_block_8 a:nth-child(5){ display: none; }
+	.nav_item .main_nav_block.main_nav_block_8 a:nth-child(7){ display: none; }
+	.nav_item .main_nav_block.main_nav_block_8 a:nth-child(11){ display: none; }
+
+	.common_container{ margin: 10px auto 0px; width: 1000px; }
+	.home_hot_film{ margin-top: 60px; }
+
+	.common_content_hm{ max-height: 580px; }
+	.common_content .list_wrap{ width: calc(100% + 20px); } 
+	.common_content .list_wrap .list_item{ width: 154px; margin: 0 15px 30px 0; height: 260px; }
+	.home_hot_film .common_content .list_wrap{ height: 290px; }
+	.danh_common_content .common_content .list_wrap{ height: 290px; }
+	.common_content .list_wrap .list_item .figure_pic{ height: 210px; }
+	.common_content .list_wrap .list_item_focus{ width: 323px; margin: 0 15px 30px 0; }
+	.common_content .list_wrap .list_item_focus_box{ height: 260px; }
+	.common_content .list_wrap .list_item_focus_box .figure_detail{ padding: 14px 20px 0px; }
+	.common_content .list_wrap .list_item_focus_box .figure_detail .figure_desc{ margin-top: 6px; }
+
+
+	.common_content_star{ height: 246px; }
+	.common_content_star .list_wrap .list_item{ width: 116px; margin: 0 10px 30px 0; height: 216px; }
+	.common_content_star .list_wrap .list_item .figure_pic{ height: 160px; }
+
+	.footer_wrap , .footer_search{ width: 1000px; }
+
+	.search_main{ margin: 0px auto; width: 1000px; }
+
+	.list_main_nav{ top: 380px; height: 196px; }
+	.list_main_nav_inner{ width: 1000px; }
+	.list_main_nav_inner .nav_item_1{ width: 345px; }
+	.list_main_nav_inner .nav_item_2{ width: 280px; }
+	.list_main_nav_inner .nav_item_3{ width: 290px; }
+	.list_main_nav .nav_item_title{ top: -25px; }
+
+	.list_page_wrap{ margin-top: 170px; }
+
+	.gbook_wrap{ margin: 30px auto 0px; width: 1000px; }
+
+	.spec_common_content .list_wrap .list_item{ height: 166px; }
+	.spec_common_content .list_wrap .list_item .figure_pic{ height: 110px;  }
+
+	.film_detail_wrap{ width: 1000px; left: 50%; margin-left: -500px; }
+	.film_detail_wrap .detail-info dl.jianjie{ width: calc(100% - 0px); }
+	.detail_mian_left{ width: calc(100% - 300px); }
+	.detail_mian_right{ width: 260px; }
+
+	.spec_detail_wrap{ width: 1000px; left: 50%; margin-left: -500px; }
+	.spec_detail_wrap .detail-pic{ float: left; width: 295px; height: 176px; }
+	.spec_detail_wrap .detail-info{ width: calc(100% - 335px); }
+	/*.spec_detail_wrap .detail-info .spec_jieshao{ width: calc(100% - 60px); }*/
+	.detail_spec_item ul li a img{ height: 130px; }
+
+	.detail_left_playlist_container .sort-list a{ min-width: 88px; }
+
+	.detail_left_glsp .common_content .list_wrap{ max-height: 514px; }
+	.detail_left_glsp .common_content .list_wrap .list_item{ width: 131px; margin: 0 11px 30px 0; height: 228px; }
+	.detail_left_glsp .common_content .list_wrap .list_item .figure_pic{ height: 178px; }
+	.detail_left_glsp .common_content .list_wrap .list_item_focus{ width: 423px; margin: 0 15px 30px 0; }
+
+	.play_detail_left{ width: 1000px; }
+	.embed-responsive{ padding-bottom: 603px; }
+	.embed-responsive-infor{ height: 563px; margin-top: 40px; }
+	.play_detail_right{ width: 300px; display: none; }
+	.play_detail_wrap .is-btn{ display: none; }
+
+	/*.detail_left_playlist{ display: block; margin-bottom: 30px; }*/
+
+	.news_mian_warp{ width: 1000px; }
+	.news_left_menu{ width: 100px; }
+	.news_middle_warp{ width: 560px; }
+	.news_right_warp{ width: 260px; }
+
+} 
+

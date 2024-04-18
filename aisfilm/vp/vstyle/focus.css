@@ -1,0 +1,71 @@
+/* 幻灯片 */
+.swiper-container { width: 100%; overflow: hidden; position: relative; margin: -78px auto 0; z-index: 10; }
+.swiper-container .swiper-wrapper{ width: 100%; height: 100%; position: absolute; left: 0; top: 0; }
+.swiper-slide{ width: 100%; height: 100%; position: absolute; left: 0; top: 0; z-index: 10; background: #040000; }
+.focus_item_img{ width: 100%; height: 100%; display: block; }
+.focus_item_img:after{ clear: both; content: ""; display: table; position: absolute; bottom: 0; width: 100%; background: linear-gradient(180deg,rgba(22,22,26,0),#16161a 100%); z-index: 15; pointer-events: none; /*background: rgba(255,255,0,.3);*/ }
+.focus_item_img a{ width: 100%; height: 100%; display: block; }
+.swiper_film_tilte{ height: 50px; line-height: 50px; position: absolute; display: block; margin: 0 auto; color: #fff; font-size: 20px; pointer-events: none; z-index: 16; }
+.swiper_film_tilte .swiper_film_tilte_paly{ width: 50px; height: 50px; display: inline-block; float: left; background: url(data:image/png;base64,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) no-repeat; background-size: 50px; }
+.swiper-slide p{ pointer-events: auto; float: left; font-weight: bold; margin-left: 15px; }
+
+.swiper-container .swiper-button-box{ height: 420px; position: absolute; z-index: 11; pointer-events: none; }
+.swiper-container .swiper-button-box{ clear: both; content: ""; display: table; }
+.swiper-container .swiper-button-next , .swiper-container .swiper-button-prev{ width: 23px; height: 38px; background: rgba(0,0,0,0.6); padding: 18px 10px; opacity: 0; pointer-events: auto; }
+.swiper-container:hover .swiper-button-next , .swiper-container:hover .swiper-button-prev{ opacity: 0.6; }
+.swiper-container .swiper-button-prev{ left: 0px; }
+.swiper-container .swiper-button-next i , .swiper-container .swiper-button-prev i{ width: 23px; height: 38px; display: block;  }
+.swiper-container .swiper-button-next{ right: 0px; }
+.swiper-container .swiper-button-prev:hover{ opacity: 1; }
+.swiper-container .swiper-button-next:hover{ opacity: 1; }
+
+.swiper-dot{ float: right; position: absolute; right: 15px; height: 24px; width: 150px; z-index: 16; pointer-events: none; }
+.swiper-dot .swiper-pagination{ float: right; right: 0; pointer-events: auto; }
+.swiper-dot .swiper-pagination span{ margin-left: 10px; width: 10px; height: 10px; box-shadow: 0 1px 2px rgba(0,0,0,.4); }
+.swiper-dot .swiper-pagination span.swiper-pagination-bullet{ background: #fff; opacity: .3; }
+.swiper-dot .swiper-pagination span.swiper-pagination-bullet-active{  background: #fff; opacity: 1; }
+
+
+/* css注释：设置了浏览器宽度不小于1920x时，模块显示1700px宽度 */ 
+@media screen and ( min-width: 1790px ) { 
+	.swiper-container { height: 690px; }
+	.focus_item_img:after{ height: 290px; }
+	.swiper_film_tilte , .swiper-dot , .swiper-button-box{ width: 1710px; left: 50%; margin-left: -855px; }
+	.swiper-container .swiper-button-box{ top: 68px;  }
+	.swiper_film_tilte{ bottom: 140px;  }
+	.swiper-dot{ bottom: 145px;  }
+}
+
+
+/* 设置了浏览器宽度不大于1789px时，模块显示1500px宽度 */
+@media screen and ( max-width: 1789px ) { 
+	.swiper-container { height: 600px; }
+	.focus_item_img:after{ height: 290px; }
+	.swiper_film_tilte , .swiper-dot , .swiper-button-box{ width: 1500px; left: 50%; margin-left: -750px; }
+	.swiper-container .swiper-button-box{ top: 50px;  }
+	.swiper_film_tilte{ bottom: 120px;  }
+	.swiper-dot{ bottom: 125px;  }
+
+}
+
+
+/* 设置了浏览器宽度不大于1549px时，模块显示1300px宽度 */
+@media screen and ( max-width: 1549px ) { 
+	.swiper-container { height: 540px; }
+	.focus_item_img:after{ height: 290px; }
+	.swiper_film_tilte , .swiper-dot , .swiper-button-box{ width: 1300px; left: 50%; margin-left: -650px; }
+	.swiper-container .swiper-button-box{ top: 30px;  }
+	.swiper_film_tilte{ bottom: 100px;  }
+	.swiper-dot{ bottom: 105px;  }
+}
+
+
+/* 设置了浏览器宽度不大于1280px时，模块显示1000px宽度 */ 
+@media screen and ( max-width: 1280px ) { 
+	.swiper-container { height: 450px; }
+	.focus_item_img:after{ height: 240px;  }
+	.swiper_film_tilte , .swiper-dot , .swiper-button-box{ width: 1000px; left: 50%; margin-left: -500px; }
+	.swiper-container .swiper-button-box{ top: -10px;  }
+	.swiper_film_tilte{ bottom: 70px;  }
+	.swiper-dot{ bottom: 75px; }
+}

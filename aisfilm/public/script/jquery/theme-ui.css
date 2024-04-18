@@ -1,0 +1,73 @@
+@charset "utf-8";
+/*!
+ * 版本：MYUI Copyright © 2019
+ * 作者：QQ726662013版权所有
+ * 官网：https://www.mytheme.cn
+ */
+
+
+/* 线路切换 */
+.dropdown{ position: relative; }
+.dropdown-box{ display: none; position: absolute; z-index: 99;}
+.dropdown-box .item{ padding: 10px; width: 160px; border-radius: 2px;}
+.dropdown-hover{ position: relative; }
+.dropdown-hover:hover .dropdown-box{ display: block;}
+.open>.dropdown-box{ display: block; }
+
+
+/* player */
+.myui-player{ margin-bottom: 50px; padding-bottom: 15px; padding-top: 50px;}
+.play_detail_wrap{ position: relative;}
+.play_detail_wrap .fixed{ position: fixed; z-index: 998; right: 0; bottom: 0; padding: 10px; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,.1);}
+.play_detail_wrap .tips{ position: relative; height: 40px; line-height: 40px; overflow: hidden; padding: 0 20px; color: #fff;}
+.play_detail_wrap .is-btn{ position: absolute; z-index: 99; top: 50%; right: -12px; margin-top: -30px; display: block; width: 12px; text-align: center; height: 60px; line-height: 60px; font-size: 10px; border-radius: 0 4px 4px 0; background-color: #404040; color: #999;}
+.play_detail_wrap .player-fixed-off{display: none; position: absolute; top: -10px; left: -10px; width: 20px; height: 20px; text-align: center; line-height: 20px; background-color: #fff; border-radius: 50%; color: #333; box-shadow: 0 2px 5px rgba(0,0,0,.1);}
+/*.myui-player__data{ padding: 20px 0 10px;}
+.myui-player__data .title{ font-size: 24px;}*/
+.player_tools_wrap{ padding: 20px 10px; display: -webkit-box; display: -webkit-flex; display: flex; background: #1b1a25; }
+.player_tools_wrap li{ display: block; text-align: center; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1;}
+.player_tools_wrap li.playshare .dropdown-box{ margin-left: -130px;}
+
+/* 撑开按钮 */
+#player-sidebar::-webkit-scrollbar{ width: 4px; background-color: #1c1b1e;}
+#player-sidebar::-webkit-scrollbar-thumb{background-color: #434145;}
+.relative{ position: relative; }
+
+
+/*右侧*/
+#player-sidebar{  }
+/* play-list */
+.myui-content__list{ position: relative;}
+.myui-content__list li{ float: left; padding: 10px;}
+.myui-content__list li a{ display: block; padding: 8px; text-align: center; width:100%; overflow:hidden; text-overflow:ellipsis; -o-text-overflow:ellipsis; white-space:nowrap;}
+.myui-play__list li{ float: left;}
+.myui-play__list li a{ display: block; padding: 8px 0; text-align: center;}
+
+
+
+/* embed */
+.embed-responsive{ position:relative; display:block; overflow:hidden; padding:0; height:0; padding-bottom: 56.25%; }
+.embed-responsive .embed-responsive-item,.embed-responsive embed,.embed-responsive iframe,.embed-responsive object,.embed-responsive video{position:absolute;top:0;bottom:0;left:0;width:100%;height:100%;border:0}
+
+
+
+/* 收缩按钮 */
+
+
+
+
+
+
+
+@media (min-width: 1024px){	
+	.col-md-wide-65{ width:65%; float:left; }
+	.col-md-wide-35{ width:35%; float:left; }
+}
+
+
+@media (min-width: 1440px){	
+	.col-lg-wide-75{ width:75%; float:left; }
+	.col-lg-wide-25{ width:25%; float:left; }
+}
+
+
