@@ -3433,6 +3433,10 @@ navbar mobile
     color: var(--color-primary)
 }
 
+.mobile-menu-inner li.current-menu-item>a {
+    color: var(--color-primary);
+}
+
 
 /*--------------------------------------------------------------
 navbar mobile sub
@@ -3997,3 +4001,5 @@ Dark mode nice popup style
     border-color: var(--dark-bg-white);
     box-shadow: none;
 }
+
+
