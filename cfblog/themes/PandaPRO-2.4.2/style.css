@@ -1427,7 +1427,7 @@ nav brand
 
 .navbar-site>li:hover a,
 .navbar-site>li.current-menu-item>a {
-    color: var(--color-dark);
+    color: var(--color-primary);
 }
 
 /* Submenu */
